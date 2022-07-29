@@ -1,0 +1,16 @@
+query Query {
+  allPeople {
+    people {
+      name
+      birthYear
+      gender
+      eyeColor
+      hairColor
+      homeworld {
+        population
+        diameter
+        name
+      }
+    }
+  }
+}
